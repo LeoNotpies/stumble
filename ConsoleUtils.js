@@ -18,3 +18,6 @@ class Console {
 }
 
 module.exports = Console;
+module.exports = {
+  log
+};
