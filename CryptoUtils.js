@@ -201,3 +201,8 @@ class CryptoUtils {
 }
 
 module.exports = CryptoUtils;
+module.exports = {
+  Encrypt,
+  Decrypt, // se presente
+  SessionToken
+};
