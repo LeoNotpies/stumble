@@ -2914,10 +2914,8 @@ async function sendShared(req, res) {
 async function OnlineCheck(req, res) {
   res.status(200).send("OK");
 }
-
 module.exports = {
   BackendUtils,
-  Database,
   UserModel,
   UserController,
   RoundController,
@@ -2936,15 +2934,5 @@ module.exports = {
   errorControll,
   sendShared,
   OnlineCheck,
-  VerifyPhoton,
-  generatePhotonJwt
-};
-module.exports = {
-  BackendUtils,
-  database,
-  UserModel,
-  UserController,
-  authenticate,
-  generatePhotonJwt,
   VerifyPhoton
 };
