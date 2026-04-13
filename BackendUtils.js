@@ -2914,8 +2914,8 @@ async function sendShared(req, res) {
 async function OnlineCheck(req, res) {
   res.status(200).send("OK");
 }
+
 module.exports = {
-  BackendUtils,
   UserModel,
   UserController,
   RoundController,
