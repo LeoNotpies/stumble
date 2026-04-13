@@ -2939,3 +2939,13 @@ module.exports = {
   VerifyPhoton,
   generatePhotonJwt
 };
+// AGGIUNGI QUESTO ALLA FINE DEL FILE BackendUtils.js
+module.exports = {
+  BackendUtils,
+  database,
+  UserModel,
+  UserController,
+  authenticate,
+  generatePhotonJwt,
+  VerifyPhoton
+};
